@@ -1,0 +1,58 @@
+@import url("https://use.typekit.net/xkc7zmp.css");
+
+::selection {
+    background-color: #79FFE1;
+    color: #fff;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: '-apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif;
+	font-weight: 500;
+	margin: 5rem;
+	font-size: 17px;
+	text-rendering: 'optimizeLegibility';
+	-webkit-font-smoothing: 'antialiased';
+}
+
+nav ul {
+    /* float: right; */
+    list-style-type: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+nav ul > li {
+    float: left;
+    margin-right: 10px;
+}
+
+a, a:visited {
+	color: #E95678;
+}
+
+a:hover {
+	color: #D400FF;
+}
+
+#signature {
+    font-weight: 600;
+    font-size: 36px;
+    text-shadow: 7.5px 7.5px gray;
+}
+
+#descript {
+    clear: left;
+    margin-top: 200px;
+    margin-right: 5rem;
+    font-size: 36px;
+}
+
+#descript #top {
+    color: #E95678
+}
+
+#descript #bottom {
+    color: #FAB795
+}
